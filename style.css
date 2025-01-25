@@ -12,6 +12,18 @@
     flex-direction: row;
 }
 
+.btn {
+    width: 120px;
+    display: flex;
+    background-color: #111111;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 12px;
+
+}
 
 /* nav style  */
 
@@ -50,17 +62,20 @@
     font-weight: 600;
 }
 
-.home-btn{
-    color:#FEA301 ;
+.home-btn {
+    color: #FEA301;
 }
-.About-btn{
+
+.About-btn {
     color: #05D4DF;
 }
-.facilities-btn{
-    color: #01ACFD ;
+
+.facilities-btn {
+    color: #01ACFD;
 }
-.admission-btn{
-    color:#5D58EF ;
+
+.admission-btn {
+    color: #5D58EF;
 }
 
 .contact-btn {
@@ -78,4 +93,26 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
+}
+/* banner */
+
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.banner-title {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.empowering{
+    color: #FEA301;
+}
+
+.banner-img{
+    height: 520px;
+}
+.banner p{
+    margin: 1.5rem auto;
 }
