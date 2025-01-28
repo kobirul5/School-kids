@@ -174,3 +174,46 @@ header{
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
+
+#story-main-card{
+    display: block;
+}
+
+.footer-container{
+    background-color: #05D4DF;
+    color: white;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px ;
+    padding-bottom: 80px;
+
+}
+.footer-container div ul li{
+    list-style: none;
+}
+.footer-container div ul {
+    padding: 0;
+}
+.footer-container div ul li a{
+    color: white;
+     text-decoration: none;
+    font-weight: 600;
+}
+.socialicons{
+    color: white;
+    font-size: 24px;
+}
+@media screen and (max-width:576px) {
+    .story-card-1{
+     column-span: 2fr;
+    }
+
+    #story-main-card{
+        display: none;
+    }
+    .footer-container{
+        grid-template-columns:1fr ;
+    }
+}
